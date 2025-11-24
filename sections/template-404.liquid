@@ -1,0 +1,50 @@
+<section class="flex justify-center h-screen items-center -mt-19 px-[16px]">
+    <video autoplay muted loop class="absolute top-0 left-0 w-full h-full object-cover z-0">
+        <source src="/assets/images/video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <div class="text-center z-1 mix-blend-difference text-white">
+        <h1 class="text-9xl font-bold">{{ section.settings.title  }}</h1>
+        <p class="text-xl">{{ section.settings.subtitle  }}</p>
+        <div class="mt-20">
+            <a href="{{ section.settings.url-btn | default: 'https://bakulan-klambi-store.myshopify.com/' }}" class="text-lg p-3 pb-4 rounded-xl" style="background-color: white; color: black">
+                {{ section.settings.btn  }}
+            </a>
+        </div>
+    </div>
+</section>
+
+{% schema %}
+{
+    "name": "Template 404",
+    "settings": [
+            {
+                "type": "text",
+                "id": "title",
+                "label": "title",
+                "default": "404",
+                "placeholder": "title" 
+            },
+            {
+                "type": "text",
+                "id": "subtitle",
+                "label": "subtitle",
+                "default": "The page you were looking for does not exist",
+                "placeholder": "subtitle" 
+            },
+            {
+                "type": "text",
+                "id": "btn",
+                "label": "Button Title",
+                "default": "Continue Shopping",
+                "placeholder": "Button Title" 
+            },
+            {
+                "type": "url",
+                "id": "url-btn",
+                "label": "Button URL"
+            }
+        ]
+}
+{% endschema %}

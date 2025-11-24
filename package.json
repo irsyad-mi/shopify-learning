@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "tailwind": "tailwindcss -i ./src/tailwind.css -o ./assets/application.css --watch"
+    "tailwind": "tailwindcss -i ./src/tailwind.css -o ./assets/application.css --watch",
+    "shopify": "shopify theme dev",
+    "dev": "concurrently \"npm run tailwind\" \"npm run shopify\""
   },
   "keywords": [],
   "author": "",
@@ -14,5 +16,8 @@
   "dependencies": {
     "@tailwindcss/cli": "^4.1.17",
     "tailwindcss": "^4.1.17"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
   }
 }
