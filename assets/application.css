@@ -925,7 +925,7 @@
   }
 }
 .bg {
-  background-image: url("/assets/watercolor-paper-texture-legal.webp");
+  background-image: url("{{ 'watercolor-paper-texture-legal.webp' | file_url }}");
   background-position: center;
   background-size: cover;
 }
