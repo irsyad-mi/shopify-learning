@@ -1,0 +1,10 @@
+{
+  "name": "Template Blog",
+  "layout": "custom-theme",
+  "sections": {
+    "template": {
+      "type": "template-blog"
+    }
+  },
+  "order": ["template"]
+}
