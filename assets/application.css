@@ -322,9 +322,6 @@
   .block {
     display: block;
   }
-  .contents {
-    display: contents;
-  }
   .flex {
     display: flex;
   }
@@ -928,7 +925,7 @@
   }
 }
 .bg {
-  background-image: url("{{ 'watercolor-paper-texture-legal.webp' | file_url }}");
+  background-image: url("https://cdn.shopify.com/s/files/1/0934/0515/1602/files/watercolor-paper-texture-legal.webp");
   background-position: center;
   background-size: cover;
 }

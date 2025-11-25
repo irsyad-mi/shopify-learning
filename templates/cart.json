@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "layout": "custom-theme",
   "sections": {
@@ -26,15 +17,9 @@
           "settings": {}
         }
       },
-      "block_order": [
-        "subtotal",
-        "update-button",
-        "checkout-button"
-      ],
+      "block_order": ["subtotal", "update-button", "checkout-button"],
       "settings": {}
     }
   },
-  "order": [
-    "template"
-  ]
+  "order": ["template"]
 }
