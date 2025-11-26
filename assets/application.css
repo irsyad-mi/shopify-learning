@@ -823,6 +823,13 @@
       }
     }
   }
+  .hover\:bg-gray-700 {
+    &:hover {
+      @media (hover: hover) {
+        background-color: var(--color-gray-700);
+      }
+    }
+  }
   .hover\:text-blue-800 {
     &:hover {
       @media (hover: hover) {
