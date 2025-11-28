@@ -12,9 +12,27 @@
     "template": {
       "type": "template-page",
       "settings": {}
+    },
+    "featured_collection_eE6QCc": {
+      "type": "featured-collection",
+      "name": "Featured Collection",
+      "settings": {
+        "title": "Featured Collection",
+        "featured_collection": "",
+        "number_of_products_to_show": 3
+      }
+    },
+    "contact_form_fDmckK": {
+      "type": "contact-form",
+      "name": "Contact Form",
+      "settings": {
+        "title": ""
+      }
     }
   },
   "order": [
-    "template"
+    "template",
+    "featured_collection_eE6QCc",
+    "contact_form_fDmckK"
   ]
 }
