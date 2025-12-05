@@ -4,7 +4,7 @@
             <div class="flex-1">
                 <div class="flex items-end justify-between my-5">
                     <h1 class="text-3xl">Your cart</h1>
-                    <a href="{{ routes.all_products_collectiom_url }}" class="text-blue-600 hover:text-blue-800 font-medium underline">Continue shopping</a>
+                    <a href="{{ routes.all_products_collection_url }}" class="text-blue-600 hover:text-blue-800 font-medium underline">Continue shopping</a>
                 </div>
             </div>
         </div>
@@ -23,7 +23,7 @@
                                 <td class="py-4 px-2 flex flex-col justify-center">
                                     <a href="{{ item.url }}">
                                         {% if item.image %}
-                                            <img src="{{ item | img_url: 'small' }}" alt="{{ item.title | escape }}" class="w-20 h-20 object-cover border">
+                                            <img src="{{ item.image | img_url: 'small' }}" alt="{{ item.title | escape }}" class="w-20 h-20 object-cover border">
                                         {% else %}
                                             {{ 'product-1' | placeholder_svg_tag: 'w-20 h-20 object-cover border' }}
                                         {% endif %}
