@@ -30,9 +30,5 @@
       }
     }
   },
-  "order": [
-    "template",
-    "featured_collection_eE6QCc",
-    "contact_form_fDmckK"
-  ]
+  "order": ["template", "featured_collection_eE6QCc", "contact_form_fDmckK"]
 }
